@@ -24,8 +24,14 @@ h2 {
   font-size: 1.875rem;
 }
 
-header {
+header, footer {
   background-color: #ffe500;
+}
+
+footer {
+  text-align: center;
+  margin-top: .3em;
+  padding: .75em;
 }
 
 .nav {
@@ -41,9 +47,11 @@ header {
 .nav a {
   display: inline-block;
   background-color: #b2a212;
+  border-radius: 4px;
   color: white;
   font-size: 1.125rem;
   text-decoration: none;
+  padding: .2em .5em .3em;
 }
 
 ul {
@@ -54,4 +62,26 @@ ul {
 .nav li {
   display: inline-block;
   padding-bottom: .3em;
+}
+
+.nav .current {
+  background-color: #b20953;
+}
+
+p {
+  color: #2f2d13;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 0 .75em;
 }
